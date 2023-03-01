@@ -1,0 +1,123 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4e3333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+  } 
+  
+h1 {
+  background-color: black;
+  padding: 35px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+} 
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: -40px;
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 100%;
+    min-height: 400px;
+    background: rgb(115, 109, 109);
+    padding: 20px;
+    text-align: center;
+  }
+
+  button {
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 75%;
+    background-color: rgb(71, 68, 68);
+    border-radius: 8px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  button:hover {
+    background-color: #aeb59a;
+    color: white;
+  }
+
+  button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  aside {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #aeb59a;
+    height: 100%;
+    text-align: center;
+    min-height: 400px;
+  }
+  
+
+/** 
+#Misdatos {
+  width: 90%;
+  height: 100%;
+}
+
+#MisEstudios {
+  width: 90%;
+  height: 100%;
+}
+
+#Mitrayectoria {
+  width: 90%;
+  height: 100%;
+}
+
+#Misaspiraciones {
+  width: 90%;
+  height: 100%;
+}
+
+#Misaspiraciones.mostrar {
+  display: block;
+}
+*/
+
+footer {
+  background-color: black;
+  padding: 35px;
+  text-align: center;
+  color: white;
+}
+
